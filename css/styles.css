@@ -1,0 +1,583 @@
+.turbolinks-progress-bar {
+    visibility: hidden;
+  }
+  
+  /* Fonts */
+  @font-face {
+    font-family: "SharpSansDispNo2";
+    src: url("/fonts/SharpSansDispNo2-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Muli-Bold";
+    src: url("/fonts/Muli-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Muli-ExtraBold";
+    src: url("/fonts/Muli-ExtraBold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Muli-Regular";
+    src: url("/fonts/Muli-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Mulish";
+    src: url("/fonts/Mulish.ttf");
+  }
+  
+  /* General Styling */
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Muli-Regular !important;
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0;
+  }
+  .navbar-fixed-top {
+    width: 1440px;
+    height: 51px;
+    top: 40px;
+    left: 120px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #000000;
+  }
+  .navbar-header {
+    width: 152px;
+    height: 26px;
+    top: 44px;
+    left: 120px;
+    
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-nav a {
+    color: black;
+  }
+
+  .navbar-nav li a {
+    color: black;
+  }
+  
+  .navbar-left {
+    margin-right: auto; 
+    align: 10px;
+  }
+  
+  .navbar-left li {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; 
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right li {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; 
+  }
+  
+  .navbar-right li img {
+    margin-right: 5px; 
+  }
+  
+  .btn-premium {
+    padding: 8px 20px;
+    background-color: #fdb913;
+    color: black !important;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the "For Job Seeker" link */
+  .job-seeker-link {
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    color: #00355f;
+  }
+  
+  .job-seeker-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #00355f; 
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    margin-bottom: 4px;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .border-line {
+    border-bottom: 1px solid #bbbbbb;
+    width: 1400;
+    left: 120px;
+    border: 1px:
+    opacity: 20%;
+    line-height: 50px;
+  }
+  
+  .btn-premium {
+    padding: 8px 20px;
+    background-color: #fdb913;
+    color: black !important;
+    border-radius: 4px;
+  }
+  
+  .btn-premium:hover {
+    background-color: #fdb913;
+  }
+  
+  .sub-inline-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .sub-inline-list li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .sub-inline-list a {
+    color: black;
+  }
+  
+  
+  .sub-inline-list li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .sub-inline-list a {
+    colot: black;
+  }
+  
+  .sub-inline-list li:last-child {
+    margin-right: 0;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .nav-border-bottom {
+    text-decoration: underline;
+    text-decoration-color: #00355f;
+    text-decoration-thickness: 4px;
+    font-weight: 600;
+  }
+  
+  /* Main Heading */
+  .main-heading {
+    width: 635px;
+    height: 176px;
+    top: 247px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;    
+    font-size: 64px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-family: Sharp Sans Display No2;
+    line-height: 88px;
+    text-align: left;
+
+  }
+  
+  /* Search Engine */
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 955px;
+    height: 80px:
+    margin: 20x auto;
+    padding: 10px:
+    back-ground: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 8px 16px 0px rgba(127, 106, 255, 0.3);
+    margin-bottom: 50px; 
+
+  }
+  
+  .search-section {
+    display: flex;
+    align-items: center;
+    flex:1;
+  }
+  
+  .search-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; 
+    margin-left: 20px;
+    
+  }
+  
+  .search-title {
+    flex: 1; 
+    width: 100%; 
+    height: 20px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #231f20;
+    border: none;
+    outline: none;
+  }
+  
+  .vl {
+    width: 1px;
+    height: 35px;
+    top: 16px;
+    bottom:16px;
+    margin: 10px 50px 5px 0;
+    opacity: 0.3px;
+    background: #D3D3D3;
+
+  }
+  
+  .country-select {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .country-select img {
+    width: 25px;
+    height: 15px;
+    margin-right: 10px; 
+  }
+  
+  .country-select select {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    background: white;
+  }
+  
+  .find-jobs-btn {
+    width: 100px;
+    height: 64px;
+    padding: 12px 20px; 
+    background: var(--Employer-Blue, #00355F);
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+  }
+  
+  .find-jobs-btn:hover {
+    background-color: #002d4c;
+  }
+  
+  .find-jobs-btn::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 14px 8px 14px 0;
+    border-style: solid;
+    border-color: transparent #ffffff transparent transparent;
+  }
+  
+   .additional-element {
+        position: absolute;
+        width: 8px;
+        height: 40px;
+        top: calc(50% - 20px); 
+        right: 6px;
+        background: red;
+        opacity: 1; 
+    }
+      
+  
+  /* Box-Content */
+
+  .box {
+    display: flex;
+    margin-bottom: 20px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .box-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .box-image {
+    width: 48px;
+    height: 52px; 
+    margin-right: 20px; 
+  }
+  
+  .box-image img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .box-text {
+    flex: 1; 
+  }
+  
+  .box-text h3 {
+    width: 101px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Sharp Sans Display No2 - Bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+
+  }
+  
+  .box-text p {
+    width: 298px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+  }
+  
+  /* How Are We Different Section */
+  .how-are {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  
+  .how-are h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00355f;
+  }
+  
+  .how-are p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    display: flex;
+    align-items: center;
+  }
+
+  .how-are p .cta-text {
+    margin-right: 10px; 
+    text-decoration: underline;
+  }
+  
+  .hoe-are p img {
+    margin-left: 10px;
+  }
+
+  .background-image {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px; 
+  }
+
+  .background-image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+  }
+
+
+  /* Footer */
+  footer {
+    width: 1680px;
+    height: 637px;
+    top: 1013px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+  
+  .main-footer {
+    width: 1680px;
+    height: 519px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+
+  }
+  .main-footer h4 {
+    color: var(--Employer-Blue, #00355F);
+    font-family: Muli-Bold;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .main-footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-footer li a {
+    color: #808080; 
+    font-family: Muli-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .footer-item {
+    margin-bottom: 20px;
+  }
+
+  .y-addr span,
+  .y-addr a {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;    
+    color: #808080;
+  }
+
+  .bottom-footer {
+    background: #f6f8fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .bottom-footer .container {
+    width: 1680px;
+    height: 118px;
+    top: 519px;
+    gap: 0px;
+    opacity: 0px;
+    
+   }
+  
+   .bottom-footer .col-sm-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .bottom-footer .list-inline {
+    padding: 0;
+    margin: 0 0 10px 0;
+    list-style: none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.48px;
+    text-align: left;
+
+  }
+  
+  .bottom-footer .list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+
+  }
+  
+  .bottom-footer .list-inline li a {
+    color: #231F20;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.48px;
+    text-decoration: none;
+    
+  }
+  
+  .bottom-footer .c-rights {
+    color: #828282;
+    font-family : Mulish;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 414px;
+    height: 18px;
+    top: 587px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    line-height: 17.92px;
+    
+  }
+  
+  .bottom-footer .social-icons {
+    width: Hug (292px)px;
+    height: Hug (64px)px;
+    top: 546px;
+    left: 1278px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+    
+  }
+  
+  .bottom-footer .social-icons a {
+    width: 70px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000;
+    font-size: 28px;
+  }
+
