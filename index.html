@@ -1,436 +1,451 @@
 <html><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/navbar-fixed-top/">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/navbar-fixed-top/">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-    <!-- Google Tag Manager -->
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-F6QL0TXQBT&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N44NR8R"></script><script>
-        (function(w,d,s,l,i){
-            w[l]=w[l]||[];w[l].push({
-                'gtm.start': new Date().getTime(),event:'gtm.js'
-            });
-            var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-            j.async=true;
-            j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;
-            f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-N44NR8R');
-    </script>
-    <!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-F6QL0TXQBT&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N44NR8R"></script><script>
+      (function(w,d,s,l,i){
+          w[l]=w[l]||[];w[l].push({
+              'gtm.start': new Date().getTime(),event:'gtm.js'
+          });
+          var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+          j.async=true;
+          j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+          f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-N44NR8R');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/custom.css">
+  <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/new_design.css">
+  <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/responsive_styles.css">
+
+  <!-- Fonts -->
+  <link href="D:/Desktop/JobSiteDemo/fonts/Muli-Black.ttf" rel="stylesheet">
   
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/custom.css">
-    <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/new_design.css">
-    <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/responsive_styles.css">
-  
-    <!-- Fonts -->
-    <link href="D:/Desktop/JobSiteDemo/fonts/Muli-Black.ttf" rel="stylesheet">
-    
-    <link rel="canonical" href="https://jobsdev.y-axis.com/">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y Jobs : 100% Overseas Jobs for Foreigners</title>
-    <meta name="description" content="Y Jobs">
-    <meta name="keywords" content="Y Jobs">
-   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  
-    <!-- Bootstrap Theme -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-  
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-  
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
-    <!-- Application JavaScript -->
-    <script src="/assets/application-f5670d28044a1879acf81c6c0868007bb4a4c6f51e642a44735a2c1b8ee6d203.js"></script>
-  
-    <!-- CSRF Meta Tags -->
-    <meta name="csrf-param" content="authenticity_token">
-    <meta name="csrf-token" content="LzxDmjQ7EbxeaUiM5T+EPms6DYznSzWw41pOXpPc7uA1Xrewi/xZI3JNxqkbTN/shLYReAitX2C1mbuyGNgBQg==">
-    <meta name="google-site-verification" content="HrMvdL5PcSc4lfNuTg8Sby-60xliGHHODY-NcI3Gkd8">
-  
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  
-  <body>
-    <nav class="navbar navbar-fixed-top">
-      <div class="container border-line">
-        <div class="navbar-header">
+  <link rel="canonical" href="https://jobsdev.y-axis.com/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y Jobs : 100% Overseas Jobs for Foreigners</title>
+  <meta name="description" content="Y Jobs">
+  <meta name="keywords" content="Y Jobs">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <!-- Bootstrap Theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Application JavaScript -->
+  <script src="/assets/application-f5670d28044a1879acf81c6c0868007bb4a4c6f51e642a44735a2c1b8ee6d203.js"></script>
+
+  <!-- CSRF Meta Tags -->
+  <meta name="csrf-param" content="authenticity_token">
+  <meta name="csrf-token" content="LzxDmjQ7EbxeaUiM5T+EPms6DYznSzWw41pOXpPc7uA1Xrewi/xZI3JNxqkbTN/shLYReAitX2C1mbuyGNgBQg==">
+  <meta name="google-site-verification" content="HrMvdL5PcSc4lfNuTg8Sby-60xliGHHODY-NcI3Gkd8">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <nav class="navbar navbar-fixed-top">
+    <div class=" border-line">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">
+          <img alt="Yjobs" src="D:/Desktop/JobSiteDemo/images/yjobs-logo.png">
+        </a>
+        <div class="navbar-premium-mobile">
+          <a class href="/premium_membership">
+            <span class="btn-premium">Try Premium</span>
+          </a>
+          <a class="navbar-signin-mobile" href="/users/sign_in">Sign in </a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M3 12H21" stroke="#00355F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 6H21" stroke="#00355F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 18H21" stroke="#00355F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
           </button>
-          <a class="navbar-brand" href="/">
-            <img alt="Yjobs" src="D:/Desktop/JobSiteDemo/images/yjobs-logo.png">
-          </a>
         </div>
     
-        <div class="navbar-collapse collapse">
-          <ul class="navbar-nav navbar-left">
-            <li class="navbar-border-bottom">
-              <a href="#" class="job-seeker-link">For Job Seeker</a>
-            </li>
-            <li>
-              <a href="/for_employers">For An Employer</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav navbar-right">
-            <li>
-              <img src="D:/Desktop/JobSiteDemo/images/phone.png" alt="Phone" width="20" height="20">
-              <a href="">+91 7670 800 000</a> &nbsp; &nbsp; &nbsp;|  
-            </li>
-            <li>
-              <a href="/users/sign_in">Sign in</a>
-            </li>
-            <li>
-              <a href="/premium_membership">
-                <span class="btn-premium">Try Premium</span>
-              </a>
-            </li>
-          </ul>
-        </div>        
+        
       </div>
-    </nav>
-    
-    <div class="container">
-      <div style="margin-top: 65px;">
-  
-        <ul class="sub-inline-list">
-          <li class="nav-border-bottom sub-list-inline-item"><a href="/jobs?fresh=true">Find Jobs</a></li>
-          <li class="sub-list-inline-item"><a href="/jobs/quick_signup">Post Resume</a></li>
-          <li class="sub-list-inline-item"><a href="/resume-zapper">Resume Zapper</a></li>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav navbar-left">
+          <li class="navbar-border-bottom">
+            <a href="#" class="job-seeker-link">For Job Seeker</a>
+          </li>
+          <li>
+            <a href="/for_employers">For An Employer</a>
+          </li>
         </ul>
-  
-        <h1 class="main-heading">Find high paying overseas jobs</h1>
-        <div class="search-container">
-          <div class="search-section">
-            <img class="search-image" src="D:/Desktop/JobSiteDemo/images/search-jobs.png" alt="Search jobs">
-            <input type="text" placeholder="Search job title, Keywords" class="search-title">
-          </div>
-          <div class="vl"></div> <!-- Vertical line separator -->
-          <div class="country-select h-search-drop">
-            <div id="flagContainer"><img src="D:/Desktop/JobSiteDemo/images/us.png" alt="USA Flag" class="img-responsive"></div>
-            <select id="countrySelector" onchange="showFlag()">
-              <option value="Australia">Australia</option>
-              <option value="Canada">Canada</option>
-              <option value="Denmark">Denmark</option>
-              <option value="Germany">Germany</option>
-              <option value="Hong Kong">Hong Kong</option>
-              <option value="Ireland">Ireland</option>
-              <option value="New Zealand">New Zealand</option>
-              <option value="Singapore">Singapore</option>
-              <option value="South Africa">South Africa</option>
-              <option value="United Arab Emirates">UAE</option>
-              <option value="United Kingdom">United Kingdom</option>
-              <option value="USA" selected="">USA</option>
-            </select>
-          </div>
-          <a class="find-jobs-btn" href="/jobs">Find Jobs</a>
-          <div class="additional-element"></div>
-        </div>
-      
-        <div class="row">
-          <div class="col-md-4">
-            <div class="box">
-              <div class="box-content">
-                <div class="box-image">
-                  <img src="D:/Desktop/JobSiteDemo/images/post-resume.png" alt="Post resume" class="img-responsive">
-                </div>
-                <div class="box-text">
-                  <h3>Post Resume</h3>
-                  <p>Place holder content... Lorem ipsum dolor amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <div class="col-md-4">
-            <div class="box">
-              <div class="box-content">
-                <div class="box-image">
-                  <img src="D:/Desktop/JobSiteDemo/images/resume-zapper.png" alt="Resume Zapper" class="img-responsive">
-                </div>
-                <div class="box-text">
-                  <h3>Resume Zapper</h3>
-                  <p>Place holder content... Lorem ipsum dolor amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-4">
-            <!-- Placeholder for another box or content -->
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="col-md-6">
-            <!-- Placeholder for content -->
-          </div>
-
-          <div class="col-md-6">
-            <!-- Placeholder for content -->
-          </div>
-        </div>
-  
-        <div class="how-are">
-          <p><span class="cta-text">How are we different from others</span>
-            <img src="D:/Desktop/JobSiteDemo/images/arrow.png" alt="Arrow" class="img-responsive">
-          </p>
-          <div class="background-image">
-            <img src="D:/Desktop/JobSiteDemo/images/footer-bg.png" alt="Footer bg" class="img-responsive">
-          </div>
-        </div>
-  
-      </div>
+        <ul class="navbar-nav navbar-right">
+          <li>
+            <img src="D:/Desktop/JobSiteDemo/images/phone.png" alt="Phone" width="20" height="20">
+            <a href="">+91 7670 800 000</a> &nbsp; &nbsp; &nbsp;|  
+          </li>
+          <li>
+            <a href="/users/sign_in">Sign in</a>
+          </li>
+          <li>
+            <a href="/premium_membership">
+              <span class="btn-premium">Try Premium</span>
+            </a>
+          </li>
+        </ul>
+      </div>        
     </div>
+  </nav>
   
-    <!-- JavaScript Files -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        function set_search(that) {
-          var href = "/jobs?";
-          var href_search = "jobs";
-          var search_field = $(".search-title").val();
-  
-          if (search_field != '') {
-            href += '&search[q]=' + search_field;
-            href_search = search_field.replace(/[\/,\s,.]/g, '-') + "-" + href_search;
-          }
-          var country = $(".h-search-drop").find("select").val();
-          if (country != 'Select Country') {
-            href += '&search[where_q]=' + country;
-            href_search += "-in-" + country.replace(/[\/,\s,.]/g, '-');
-          }
-          $(that).attr("href", href_search);
-        }
-  
-        $(".search-title").on('keypress', function (e) {
-          if (e.which == 13 && $(this).val().length > 3) {
-            search_button = $(".find-jobs-btn");
-            set_search(search_button);
-            search_button[0].click();
-          }
-        });
-  
-        $(".find-jobs-btn").click(function () {
-          set_search(this);
-        });
-      });
-  
-      document.addEventListener('DOMContentLoaded', function () {
-        showFlag(); // Call the function to show the default flag when the page loads
-      });
-  
-      function showFlag() {
-        const countrySelector = document.getElementById('countrySelector');
-        const flagContainer = document.getElementById('flagContainer');
-        const selectedCountry = countrySelector.value;
-  
-        const flags = {
-          "Australia": "D:/Desktop/JobSiteDemo/images/au.png",
-          "Canada": "D:/Desktop/JobSiteDemo/images/ca.png",
-          "USA": "D:/Desktop/JobSiteDemo/images/us.png",
-          "United Kingdom": "D:/Desktop/JobSiteDemo/images/gb.png",
-          "South Africa": "D:/Desktop/JobSiteDemo/images/za.png",
-          "United Arab Emirates": "D:/Desktop/JobSiteDemo/images/ae.png",
-          "Germany": "D:/Desktop/JobSiteDemo/images/de.png",
-          "Hong Kong": "D:/Desktop/JobSiteDemo/images/hk.png",
-          "Ireland": "D:/Desktop/JobSiteDemo/images/ie.png",
-          "New Zealand": "D:/Desktop/JobSiteDemo/images/nz.png",
-          "Singapore": "D:/Desktop/JobSiteDemo/images/sg.png",
-          "Denmark": "D:/Desktop/JobSiteDemo/images/dk.png"
-        };
-  
-        flagContainer.innerHTML = '';
-  
-        if (selectedCountry) {
-          const img = document.createElement('img');
-          img.src = flags[selectedCountry];
-          img.alt = `${selectedCountry} Flag`;
-          img.className = 'img-responsive';
-          flagContainer.appendChild(img);
-        }
-      }
-    </script>
+  <div class="container">
+    <div style="margin-top: 65px;">
+      <ul class="navbar-nav navbar-left mobile">
+        <li class="navbar-border-bottom">
+          <a href="#" class="job-seeker-link">For Job Seeker</a>
+        </li>
+        <li>
+          <a href="/for_employers">For An Employer</a>
+        </li>
+      </ul>
+      <ul class="sub-inline-list">
+        <li class="nav-border-bottom sub-list-inline-item"><a href="/jobs?fresh=true">Find Jobs</a></li>
+        <li class="sub-list-inline-item"><a href="/jobs/quick_signup">Post Resume</a></li>
+        <li class="sub-list-inline-item"><a href="/resume-zapper">Resume Zapper</a></li>
+      </ul>
+
+      <h1 class="main-heading">Find high paying overseas jobs</h1>
+      <div class="search-container">
+        <div class="search-section">
+          <img class="search-image" src="D:/Desktop/JobSiteDemo/images/search-jobs.png" alt="Search jobs">
+          <input type="text" placeholder="Search job title, Keywords" class="search-title">
+        </div>
+        <div class="vl"></div> <!-- Vertical line separator -->
+        <div class="country-select h-search-drop">
+          <div id="flagContainer"><img src="D:/Desktop/JobSiteDemo/images/us.png" alt="USA Flag" class="img-responsive"></div>
+          <select id="countrySelector" onchange="showFlag()">
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Germany">Germany</option>
+            <option value="Hong Kong">Hong Kong</option>
+            <option value="Ireland">Ireland</option>
+            <option value="New Zealand">New Zealand</option>
+            <option value="Singapore">Singapore</option>
+            <option value="South Africa">South Africa</option>
+            <option value="United Arab Emirates">UAE</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="USA" selected="">USA</option>
+          </select>
+        </div>
+        <a class="find-jobs-btn" href="/jobs">Find Jobs</a>
+        <div class="additional-element"></div>
+      </div>
     
-      
-      <footer>
-        <div class="main-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3 footer-item">
-                <h4>ABOUT Y-AXIS</h4>
-                <ul>
-                  <li><a href="https://www.y-axis.com/aboutus/" target="_blank" rel="noopener noreferrer">About Us</a></li>
-                  <li><a href="https://www.y-axis.com/csr/" target="_blank" rel="noopener noreferrer">Corporate Responsibility</a></li>
-                  <li><a href="https://www.y-axis.com/careers/" target="_blank" rel="noopener noreferrer">Careers</a></li>
-                  <li><a href="https://www.y-axis.com/testimonials-reviews-success-stories" target="_blank" rel="noopener noreferrer">Y-axis Reviews</a></li>
-                  <li><a href="https://www.y-axis.com/sitemap" target="_blank" rel="noopener noreferrer">Site map</a></li>
-                </ul>
-                <h4>ABOUT JOBS</h4>
-                <ul>
-                  <li><a href="/about" class="home-loader" title="About Us">About Us</a></li>
-                  <li><a class="home-loader" title="Our Reach" href="/contact_us">Our Reach</a></li>
-                  <li><a href="/why_yjobs" class="home-loader" title="What’s Unique">What’s Unique</a></li>
-                  <li><a href="/faqs" class="home-loader">FAQs</a></li>
-                </ul>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="box-content">
+              <div class="box-image">
+                <img src="D:/Desktop/JobSiteDemo/images/post-resume.png" alt="Post resume" class="img-responsive">
               </div>
-      
-              <div class="col-md-2 footer-item">
-                <h4>CHANNELS</h4>
-                <ul>
-                  <li><a href="https://www.y-axis.com/potential-immigrants" target="_blank" rel="noopener noreferrer">Migrate</a></li>
-                  <li><a href="https://www.y-axis.com/work" target="_blank" rel="noopener noreferrer">Work</a></li>
-                  <li><a href="https://www.y-axis.com/visa/study/" target="_blank" rel="noopener noreferrer">Study</a></li>
-                  <li><a href="https://www.y-axis.com/coaching/" target="_blank" rel="noopener noreferrer">Coaching</a></li>
-                  <li><a href="https://www.y-axis.com/invest" target="_blank" rel="noopener noreferrer">Invest</a></li>
-                  <li><a href="https://www.y-axis.com/visa/" target="_blank" rel="noopener noreferrer">Visas</a></li>
-                  <li><a href="https://www.y-axis.com/products" target="_blank" rel="noopener noreferrer">Services</a></li>
-                </ul>
-              </div>
-      
-              <div class="col-md-2 footer-item">
-                <h4>FOLLOW US</h4>
-                <ul>
-                  <li><a href="https://www.facebook.com/YAXISOverseas" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-                  <li><a href="https://twitter.com/yaxis" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                  <li><a href="https://www.linkedin.com/company/y-axis-overseas-careers?trk=fc_badge" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                  <li><a href="https://in.pinterest.com/yaxisoverseas/" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
-                  <li><a href="https://plus.google.com/+YAxisOverseas" target="_blank" rel="noopener noreferrer">Google Plus</a></li>
-                  <li><a href="https://www.youtube.com/user/yaxisvideos" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-                </ul>
-              </div>
-      
-              <div class="col-md-2 footer-item">
-                <h4>Y-AXIS BLOGS</h4>
-                <ul>
-                  <li><a href="https://www.y-axis.com/news/" target="_blank" rel="noopener noreferrer">News</a></li>
-                  <li><a href="https://www.blog.y-axis.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                  <li><a href="https://www.y-axis.com/overseas-jobs/" target="_blank" rel="noopener noreferrer">Overseas Jobs</a></li>
-                  <li><a href="https://customerreviews.blogs.y-axis.com/" target="_blank" rel="noopener noreferrer">Customer Reviews</a></li>
-                  <li><a href="https://www.y-axis.com.au/blog/" target="_blank" rel="noopener noreferrer">Y-Axis Australia Blog</a></li>
-                  <li><a href="https://www.y-axis.ae/blog/" target="_blank" rel="noopener noreferrer">Y-Axis Dubai Blog</a></li>
-                </ul>
-              </div>
-      
-              <div class="col-md-3 footer-item">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h4>INDIA</h4>
-                    <address class="y-addr">
-                      <span>+91 7670 800 000</span><br>
-                      <a href="mailto:info@y-axis.com">info@y-axis.com</a><br>
-                      <a href="https://www.y-axis.com" target="_blank" rel="noopener noreferrer">www.y-axis.com</a>
-                    </address>
-                  </div>
-                  <div class="col-sm-8">
-                    <h4>AUSTRALIA</h4>
-                    <address class="y-addr">
-                      <span>+61 (3) 9939 4818</span><br>
-                      <a href="mailto:australia@y-axis.com">australia@y-axis.com</a><br>
-                      <a href="https://www.y-axis.com.au" target="_blank" rel="noopener noreferrer">www.y-axis.com.au</a>
-                    </address>
-                  </div>
-                  <div class="col-sm-10">
-                    <h4>UNITED ARAB EMIRATES</h4>
-                    <address class="y-addr">
-                      <span>+971(0)44259635</span><br>
-                      <a href="mailto:dubai@y-axis.com">dubai@y-axis.com</a><br>
-                      <a href="https://www.y-axis.ae/" target="_blank" rel="noopener noreferrer">www.y-axis.ae</a>
-                    </address>
-                  </div>
-                </div>
+              <div class="box-text">
+                <h3>Post Resume</h3>
+                <p>Place holder content... Lorem ipsum dolor amet, consectetur adipiscing elit.</p>
               </div>
             </div>
           </div>
         </div>
       
-        <div class="bottom-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8">
-                <ul class="list-inline f-links">
-                  <li class="hidden-xs"><a href="#" title="Report Problem" data-toggle="modal" data-target="#reportProblem">Report Problem</a></li>
-                  <li><a target="_blank" href="/terms-conditions" title="Terms and Conditions" rel="noopener noreferrer">Terms &amp; Conditions</a></li>
-                  <li><a target="_blank" href="/anti-fraud-policy" title="Anti Fraud Policy" rel="noopener noreferrer">Anti Fraud Policy</a></li>
-                  <li><a target="_blank" href="/privacy-policy" title="Privacy Policy" rel="noopener noreferrer">Privacy Policy</a></li>
-                </ul>
-                <span class="c-rights">© 2024 Y-AXIS OVERSEAS CAREERS. ALL RIGHTS RESERVED.</span>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="box-content">
+              <div class="box-image">
+                <img src="D:/Desktop/JobSiteDemo/images/resume-zapper.png" alt="Resume Zapper" class="img-responsive">
               </div>
-              <div class="col-sm-4">
-                <div class="social-icons">
-                  <a href="https://www.facebook.com/YAXISOverseas" target="_blank" rel="noopener noreferrer" class="fab fa-facebook"></a>
-                  <a href="https://twitter.com/yaxis" target="_blank" rel="noopener noreferrer" class="fab fa-twitter"></a>
-                  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin"></a>
-                  <a href="https://plus.google.com/+YAxisOverseas/posts" target="_blank" rel="noopener noreferrer" class="fab fa-google-plus"></a>
-                </div>
+              <div class="box-text">
+                <h3>Resume Zapper</h3>
+                <p>Place holder content... Lorem ipsum dolor amet, consectetur adipiscing elit.</p>
               </div>
             </div>
           </div>
         </div>
+      </div>
       
-        <div id="reportProblem" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4 class="modal-title">Report Problem</h4>
+      <div class="col-md-4">
+          <!-- Placeholder for another box or content -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <!-- Placeholder for content -->
+        </div>
+
+        <div class="col-md-6">
+          <!-- Placeholder for content -->
+        </div>
+      </div>
+
+      <div class="how-are">
+        <p><span class="cta-text">How are we different from others</span>
+          <img src="D:/Desktop/JobSiteDemo/images/arrow.png" alt="Arrow" class="img-responsive">
+        </p>
+        <div class="background-image">
+          <img src="D:/Desktop/JobSiteDemo/images/footer-bg.png" alt="Footer bg" class="img-responsive">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      function set_search(that) {
+        var href = "/jobs?";
+        var href_search = "jobs";
+        var search_field = $(".search-title").val();
+
+        if (search_field != '') {
+          href += '&search[q]=' + search_field;
+          href_search = search_field.replace(/[\/,\s,.]/g, '-') + "-" + href_search;
+        }
+        var country = $(".h-search-drop").find("select").val();
+        if (country != 'Select Country') {
+          href += '&search[where_q]=' + country;
+          href_search += "-in-" + country.replace(/[\/,\s,.]/g, '-');
+        }
+        $(that).attr("href", href_search);
+      }
+
+      $(".search-title").on('keypress', function (e) {
+        if (e.which == 13 && $(this).val().length > 3) {
+          search_button = $(".find-jobs-btn");
+          set_search(search_button);
+          search_button[0].click();
+        }
+      });
+
+      $(".find-jobs-btn").click(function () {
+        set_search(this);
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      showFlag(); // Call the function to show the default flag when the page loads
+    });
+
+    function showFlag() {
+      const countrySelector = document.getElementById('countrySelector');
+      const flagContainer = document.getElementById('flagContainer');
+      const selectedCountry = countrySelector.value;
+
+      const flags = {
+        "Australia": "D:/Desktop/JobSiteDemo/images/au.png",
+        "Canada": "D:/Desktop/JobSiteDemo/images/ca.png",
+        "USA": "D:/Desktop/JobSiteDemo/images/us.png",
+        "United Kingdom": "D:/Desktop/JobSiteDemo/images/gb.png",
+        "South Africa": "D:/Desktop/JobSiteDemo/images/za.png",
+        "United Arab Emirates": "D:/Desktop/JobSiteDemo/images/ae.png",
+        "Germany": "D:/Desktop/JobSiteDemo/images/de.png",
+        "Hong Kong": "D:/Desktop/JobSiteDemo/images/hk.png",
+        "Ireland": "D:/Desktop/JobSiteDemo/images/ie.png",
+        "New Zealand": "D:/Desktop/JobSiteDemo/images/nz.png",
+        "Singapore": "D:/Desktop/JobSiteDemo/images/sg.png",
+        "Denmark": "D:/Desktop/JobSiteDemo/images/dk.png"
+      };
+
+      flagContainer.innerHTML = '';
+
+      if (selectedCountry) {
+        const img = document.createElement('img');
+        img.src = flags[selectedCountry];
+        img.alt = `${selectedCountry} Flag`;
+        img.className = 'img-responsive';
+        flagContainer.appendChild(img);
+      }
+    }
+  </script>
+    
+    <footer>
+      <div class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-item">
+              <h4>ABOUT Y-AXIS</h4>
+              <ul>
+                <li><a href="https://www.y-axis.com/aboutus/" target="_blank" rel="noopener noreferrer">About Us</a></li>
+                <li><a href="https://www.y-axis.com/csr/" target="_blank" rel="noopener noreferrer">Corporate Responsibility</a></li>
+                <li><a href="https://www.y-axis.com/careers/" target="_blank" rel="noopener noreferrer">Careers</a></li>
+                <li><a href="https://www.y-axis.com/testimonials-reviews-success-stories" target="_blank" rel="noopener noreferrer">Y-axis Reviews</a></li>
+                <li><a href="https://www.y-axis.com/sitemap" target="_blank" rel="noopener noreferrer">Site map</a></li>
+              </ul>
+              <h4>ABOUT JOBS</h4>
+              <ul>
+                <li><a href="/about" class="home-loader" title="About Us">About Us</a></li>
+                <li><a class="home-loader" title="Our Reach" href="/contact_us">Our Reach</a></li>
+                <li><a href="/why_yjobs" class="home-loader" title="What’s Unique">What’s Unique</a></li>
+                <li><a href="/faqs" class="home-loader">FAQs</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-2 footer-item">
+              <h4>CHANNELS</h4>
+              <ul>
+                <li><a href="https://www.y-axis.com/potential-immigrants" target="_blank" rel="noopener noreferrer">Migrate</a></li>
+                <li><a href="https://www.y-axis.com/work" target="_blank" rel="noopener noreferrer">Work</a></li>
+                <li><a href="https://www.y-axis.com/visa/study/" target="_blank" rel="noopener noreferrer">Study</a></li>
+                <li><a href="https://www.y-axis.com/coaching/" target="_blank" rel="noopener noreferrer">Coaching</a></li>
+                <li><a href="https://www.y-axis.com/invest" target="_blank" rel="noopener noreferrer">Invest</a></li>
+                <li><a href="https://www.y-axis.com/visa/" target="_blank" rel="noopener noreferrer">Visas</a></li>
+                <li><a href="https://www.y-axis.com/products" target="_blank" rel="noopener noreferrer">Services</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-2 footer-item">
+              <h4>FOLLOW US</h4>
+              <ul>
+                <li><a href="https://www.facebook.com/YAXISOverseas" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://twitter.com/yaxis" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/company/y-axis-overseas-careers?trk=fc_badge" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://in.pinterest.com/yaxisoverseas/" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+                <li><a href="https://plus.google.com/+YAxisOverseas" target="_blank" rel="noopener noreferrer">Google Plus</a></li>
+                <li><a href="https://www.youtube.com/user/yaxisvideos" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-2 footer-item">
+              <h4>Y-AXIS BLOGS</h4>
+              <ul>
+                <li><a href="https://www.y-axis.com/news/" target="_blank" rel="noopener noreferrer">News</a></li>
+                <li><a href="https://www.blog.y-axis.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                <li><a href="https://www.y-axis.com/overseas-jobs/" target="_blank" rel="noopener noreferrer">Overseas Jobs</a></li>
+                <li><a href="https://customerreviews.blogs.y-axis.com/" target="_blank" rel="noopener noreferrer">Customer Reviews</a></li>
+                <li><a href="https://www.y-axis.com.au/blog/" target="_blank" rel="noopener noreferrer">Y-Axis Australia Blog</a></li>
+                <li><a href="https://www.y-axis.ae/blog/" target="_blank" rel="noopener noreferrer">Y-Axis Dubai Blog</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3 footer-item">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h4>INDIA</h4>
+                  <address class="y-addr">
+                    <span>+91 7670 800 000</span><br>
+                    <a href="mailto:info@y-axis.com">info@y-axis.com</a><br>
+                    <a href="https://www.y-axis.com" target="_blank" rel="noopener noreferrer">www.y-axis.com</a>
+                  </address>
+                </div>
+                <div class="col-sm-8">
+                  <h4>AUSTRALIA</h4>
+                  <address class="y-addr">
+                    <span>+61 (3) 9939 4818</span><br>
+                    <a href="mailto:australia@y-axis.com">australia@y-axis.com</a><br>
+                    <a href="https://www.y-axis.com.au" target="_blank" rel="noopener noreferrer">www.y-axis.com.au</a>
+                  </address>
+                </div>
+                <div class="col-sm-10">
+                  <h4>UNITED ARAB EMIRATES</h4>
+                  <address class="y-addr">
+                    <span>+971(0)44259635</span><br>
+                    <a href="mailto:dubai@y-axis.com">dubai@y-axis.com</a><br>
+                    <a href="https://www.y-axis.ae/" target="_blank" rel="noopener noreferrer">www.y-axis.ae</a>
+                  </address>
+                </div>
               </div>
-              <div id="report_message"></div>
-              <form class="form-horizontal report-problem" action="/report_problem" accept-charset="UTF-8" data-remote="true" method="post">
-                <div class="modal-body">
-                  <div class="form-group">
-                    <label class="control-label col-sm-3" for="name">Name:</label>
-                    <div class="col-sm-9">
-                      <input id="name" type="text" class="form-control" placeholder="Enter Name" required="">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-sm-3" for="email">Email:</label>
-                    <div class="col-sm-9">
-                      <input id="email" type="email" class="form-control" placeholder="Enter Email" required="">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-sm-3" for="mobile">Mobile:</label>
-                    <div class="col-sm-9">
-                      <input id="mobile" type="tel" class="form-control" placeholder="Enter Mobile" required="">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label class="control-label col-sm-3" for="report">Report:</label>
-                    <div class="col-sm-9">
-                      <textarea class="form-control" id="report" placeholder="Type Report" required=""></textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <input type="submit" class="btn btn-success" value="Send Report">
-                </div>
-              </form>
             </div>
           </div>
         </div>
-      </footer>
-  </body></html>
+      </div>
+    
+      <div class="bottom-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <ul class="list-inline f-links">
+                <li class="_blank"><a href="#" title="Report Problem" data-toggle="modal" data-target="#reportProblem">Report Problem</a></li>
+                <li><a target="_blank" href="/terms-conditions" title="Terms and Conditions" rel="noopener noreferrer">Terms &amp; Conditions</a></li>
+                <li><a target="_blank" href="/anti-fraud-policy" title="Anti Fraud Policy" rel="noopener noreferrer">Anti Fraud Policy</a></li>
+                <li><a target="_blank" href="/privacy-policy" title="Privacy Policy" rel="noopener noreferrer">Privacy Policy</a></li>
+              </ul>
+              <span class="c-rights">© 2024 Y-AXIS OVERSEAS CAREERS. ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="col-sm-4">
+              <div class="social-icons">
+                <a href="https://www.facebook.com/YAXISOverseas" target="_blank" rel="noopener noreferrer" class="fab fa-facebook"></a>
+                <a href="https://twitter.com/yaxis" target="_blank" rel="noopener noreferrer" class="fab fa-twitter"></a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin"></a>
+                <a href="https://plus.google.com/+YAxisOverseas/posts" target="_blank" rel="noopener noreferrer" class="fab fa-google-plus"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div id="reportProblem" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">×</button>
+              <h4 class="modal-title">Report Problem</h4>
+            </div>
+            <div id="report_message"></div>
+            <form class="form-horizontal report-problem" action="/report_problem" accept-charset="UTF-8" data-remote="true" method="post">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="name">Name:</label>
+                  <div class="col-sm-9">
+                    <input id="name" type="text" class="form-control" placeholder="Enter Name" required="">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="email">Email:</label>
+                  <div class="col-sm-9">
+                    <input id="email" type="email" class="form-control" placeholder="Enter Email" required="">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="mobile">Mobile:</label>
+                  <div class="col-sm-9">
+                    <input id="mobile" type="tel" class="form-control" placeholder="Enter Mobile" required="">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-3" for="report">Report:</label>
+                  <div class="col-sm-9">
+                    <textarea class="form-control" id="report" placeholder="Type Report" required=""></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-success" value="Send Report">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body></html>
