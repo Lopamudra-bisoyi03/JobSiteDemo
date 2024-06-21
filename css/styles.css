@@ -54,7 +54,6 @@ body {
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
-  margin: 0 40px;
   border: 1px solid #000000;
 }
 
@@ -70,6 +69,10 @@ body {
     display: none;
   }
 
+  .navbar-fixed-top {
+    margin: 0 40px;
+  }
+
   .mobile {
     display: none !important;
   }
@@ -79,7 +82,7 @@ body {
     padding: 0px 100px 0 130px;
   }
 
-  .search-container: {
+  .search-container {
     max-width: 900px;
   }
 
@@ -104,9 +107,9 @@ body {
     align-items: center;
   }
 
-  .navbar-brand img {
+  /* .navbar-brand img {
     margin-left: -20px;
-  }
+  } */
 
   .navbar-signin-mobile {
     color: black;
@@ -148,7 +151,6 @@ body {
   vertical-align: start;
 }
 
-.navbar-brand mobile {}
 
 .navbar-collapse {
   display: flex;
@@ -227,7 +229,7 @@ body {
   bottom: -4px;
   margin-bottom: 4px;
   width: 130px;
-}  
+}
 
 .navbar-border-bottom {
   text-decoration: none;
@@ -237,8 +239,8 @@ body {
 .container {
   max-width: 1440px !important;
   margin-left: 120px;
-  padding: 0 15px;
-  
+  padding: 0 0;
+
 }
 
 .border-line {
@@ -246,7 +248,7 @@ body {
   left: 120px;
   opacity: 1;
   line-height: 50px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .btn-premium {
@@ -672,13 +674,11 @@ footer {
 
   .navbar-fixed-top {
     margin-left: 0 !important;
-   
+
   }
 
   .navbar-fixed-top {
-    border-color: rgba(149, 153, 162, 0.4);
-    border-style: solid;
-    border-bottom-max-width: 1px;
+    border-bottom: 1px solid rgb(0 0 0 / 40%) !important;
     background-color: var(--White, #fff);
     display: flex;
     gap: 20px;
@@ -697,7 +697,7 @@ footer {
   }
 
   .navbar-bottom-border {
-    border-bottom: 2px solid #000; 
+    border-bottom: 2px solid #000;
   }
 
   .navbar-premium-mobile {
@@ -780,7 +780,7 @@ footer {
     display: flex;
     margin-top: 28px;
     /* max-width: 346px; */
-    max-max-width: 100%;
+    max-width: 100%;
     flex-direction: column;
     font-size: 16px;
     font-weight: 400;
@@ -876,12 +876,16 @@ footer {
     height: 32px;
   }
 
+  .main-heading {
+    height: auto;
+  }
+
   .box-content {
     align-self: center;
     display: flex;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     max-width: 100%;
-    max-max-width: 326px;
+    max-width: 326px;
     gap: 20px;
     justify-content: space-between;
   }
@@ -1013,4 +1017,9 @@ footer {
     border-radius: 50%;
     height: 44px;
   }
+}
+
+.navbar-collapse.collapse,
+.container {
+  max-width: 1440px;
 }
