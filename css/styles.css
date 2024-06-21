@@ -95,7 +95,6 @@ body {
   .search-container {
     height: 70px;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -156,6 +155,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid;
+  max-width: 1440px;
 }
 
 .navbar-nav {
@@ -211,9 +211,9 @@ body {
 /* Styles for the "For Job Seeker" link */
 .job-seeker-link {
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   position: relative;
-  color: #00355f;
+  color: #fff;
 }
 
 .job-seeker-link::after {
@@ -226,19 +226,19 @@ body {
   left: 0;
   bottom: -4px;
   margin-bottom: 4px;
-}
+  width: 130px;
+}  
 
 .navbar-border-bottom {
-  text-decoration: underline;
-  text-decoration-color: #00355f;
-  text-decoration-thickness: 4px;
+  text-decoration: none;
   font-weight: 600;
 }
 
 .container {
-  max-max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1440px !important;
+  margin-left: 120px;
   padding: 0 15px;
+  
 }
 
 .border-line {
@@ -672,6 +672,7 @@ footer {
 
   .navbar-fixed-top {
     margin-left: 0 !important;
+   
   }
 
   .navbar-fixed-top {
@@ -693,6 +694,20 @@ footer {
     max-width: 121px;
     max-max-width: 100%;
     margin: auto 0;
+  }
+
+  .navbar-bottom-border {
+    border-bottom: 2px solid #000; 
+  }
+
+  .navbar-premium-mobile {
+    white-space: nowrap;
+    padding: 0 20px;
+    margin-right: 10px;
+  }
+
+  .navbar-premium-mobile a {
+    margin-right: 10px;
   }
 
   .navbar-collapse {

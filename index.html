@@ -26,12 +26,10 @@
   <!-- End Google Tag Manager -->
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/custom.css">
-  <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/new_design.css">
-  <link rel="stylesheet" href="D:/Desktop/JobSiteDemo/css/responsive_styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Fonts -->
-  <link href="D:/Desktop/JobSiteDemo/fonts/Muli-Black.ttf" rel="stylesheet">
+  <link href="/fonts/Muli-Black.ttf" rel="stylesheet">
   
   <link rel="canonical" href="https://jobsdev.y-axis.com/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,7 +69,7 @@
     <div class=" border-line">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">
-          <img alt="Yjobs" src="D:/Desktop/JobSiteDemo/images/yjobs-logo.png">
+          <img alt="Yjobs" src="./images/yjobs-logo.png">
         </a>
         <div class="navbar-premium-mobile">
           <a class href="/premium_membership">
@@ -86,9 +84,7 @@
               <path d="M3 18H21" stroke="#00355F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
           </button>
-        </div>
-    
-        
+        </div>  
       </div>
       <div class="navbar-collapse collapse">
         <ul class="navbar-nav navbar-left">
@@ -101,7 +97,7 @@
         </ul>
         <ul class="navbar-nav navbar-right">
           <li>
-            <img src="D:/Desktop/JobSiteDemo/images/phone.png" alt="Phone" width="20" height="20">
+            <img src="./images/phone.png" alt="Phone" width="20" height="20">
             <a href="">+91 7670 800 000</a> &nbsp; &nbsp; &nbsp;|  
           </li>
           <li>
@@ -136,12 +132,12 @@
       <h1 class="main-heading">Find high paying overseas jobs</h1>
       <div class="search-container">
         <div class="search-section">
-          <img class="search-image" src="D:/Desktop/JobSiteDemo/images/search-jobs.png" alt="Search jobs">
+          <img class="search-image" src="./images/search-jobs.png" alt="Search jobs">
           <input type="text" placeholder="Search job title, Keywords" class="search-title">
         </div>
         <div class="vl"></div> <!-- Vertical line separator -->
         <div class="country-select h-search-drop">
-          <div id="flagContainer"><img src="D:/Desktop/JobSiteDemo/images/us.png" alt="USA Flag" class="img-responsive"></div>
+          <div id="flagContainer"><img src="./images/us.png" alt="USA Flag" class="img-responsive"></div>
           <select id="countrySelector" onchange="showFlag()">
             <option value="Australia">Australia</option>
             <option value="Canada">Canada</option>
@@ -168,7 +164,7 @@
           <div class="box">
             <div class="box-content">
               <div class="box-image">
-                <img src="D:/Desktop/JobSiteDemo/images/post-resume.png" alt="Post resume" class="img-responsive">
+                <img src="./images/post-resume.png" alt="Post resume" class="img-responsive">
               </div>
               <div class="box-text">
                 <h3>Post Resume</h3>
@@ -182,7 +178,7 @@
           <div class="box">
             <div class="box-content">
               <div class="box-image">
-                <img src="D:/Desktop/JobSiteDemo/images/resume-zapper.png" alt="Resume Zapper" class="img-responsive">
+                <img src="./images/resume-zapper.png" alt="Resume Zapper" class="img-responsive">
               </div>
               <div class="box-text">
                 <h3>Resume Zapper</h3>
@@ -210,10 +206,10 @@
 
       <div class="how-are">
         <p><span class="cta-text">How are we different from others</span>
-          <img src="D:/Desktop/JobSiteDemo/images/arrow.png" alt="Arrow" class="img-responsive">
+          <img src="./images/arrow.png" alt="Arrow" class="img-responsive">
         </p>
         <div class="background-image">
-          <img src="D:/Desktop/JobSiteDemo/images/footer-bg.png" alt="Footer bg" class="img-responsive">
+          <img src="./images/footer-bg.png" alt="Footer bg" class="img-responsive">
         </div>
       </div>
 
@@ -265,18 +261,18 @@
       const selectedCountry = countrySelector.value;
 
       const flags = {
-        "Australia": "D:/Desktop/JobSiteDemo/images/au.png",
-        "Canada": "D:/Desktop/JobSiteDemo/images/ca.png",
-        "USA": "D:/Desktop/JobSiteDemo/images/us.png",
-        "United Kingdom": "D:/Desktop/JobSiteDemo/images/gb.png",
-        "South Africa": "D:/Desktop/JobSiteDemo/images/za.png",
-        "United Arab Emirates": "D:/Desktop/JobSiteDemo/images/ae.png",
-        "Germany": "D:/Desktop/JobSiteDemo/images/de.png",
-        "Hong Kong": "D:/Desktop/JobSiteDemo/images/hk.png",
-        "Ireland": "D:/Desktop/JobSiteDemo/images/ie.png",
-        "New Zealand": "D:/Desktop/JobSiteDemo/images/nz.png",
-        "Singapore": "D:/Desktop/JobSiteDemo/images/sg.png",
-        "Denmark": "D:/Desktop/JobSiteDemo/images/dk.png"
+        "Australia": "./images/au.png",
+        "Canada": "./images/ca.png",
+        "USA": "./images/us.png",
+        "United Kingdom": "./images/gb.png",
+        "South Africa": "./images/za.png",
+        "United Arab Emirates": "./images/ae.png",
+        "Germany": "./images/de.png",
+        "Hong Kong": "./images/hk.png",
+        "Ireland": "./images/ie.png",
+        "New Zealand": "./images/nz.png",
+        "Singapore": "./images/sg.png",
+        "Denmark": "./images/dk.png"
       };
 
       flagContainer.innerHTML = '';
